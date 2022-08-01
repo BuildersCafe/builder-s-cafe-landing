@@ -77,11 +77,9 @@ html,body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0px #00000000;
-    -webkit-mask-image: linear-gradient(to right,#4DBCFF,#52B7FF,#DA2BFF,#DA2BFF);
+    text-shadow: 0px 0px #ac444400;
     animation: animate 1s linear infinite;
     background-size: 108% 105%;
-    display: block;
 }
 
 .description_container{
