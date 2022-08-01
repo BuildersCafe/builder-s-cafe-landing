@@ -169,6 +169,7 @@ html,body{
         height: -webkit-fill-available;
     }
     .main_container{
+        height: 100vh;
         height: -webkit-fill-available;
     }
     .volume_level_container{
