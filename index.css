@@ -165,15 +165,6 @@ html,body{
 }
 
 @media screen and (min-width: 0px) and (max-width:600px) {
-    .html{
-        height: -webkit-fill-available;
-    }
-    .body{
-        height: -webkit-fill-available;
-    }
-    .main_container{
-        height: -webkit-fill-available;
-    }
     .volume_level_container{
         height: 70%;
     }
