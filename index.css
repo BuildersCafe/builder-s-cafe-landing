@@ -8,7 +8,6 @@ html,body{
 .main_container{
     height: 100vh;
     width: 100%;
-   
 }
 
 .top_container{
@@ -72,6 +71,49 @@ html,body{
     background-size: 108% 105%;
 }
 
+.description_container{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Noto Sans Myanmar', sans-serif;
+    font-size: 1.3rem; 
+    color: white;
+}
+
+.description{
+    width: 100%;
+    height: 45%;
+}
+
+.join_dc_container{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button_container{
+    width: 100%;
+    height: 55%;
+    background-color: violet;
+}
+
+.btn{
+    font-size: 1.25rem;
+    height: 100%;
+    border: none;
+    color: white;
+    background-color: #3981F6;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* 1.125rem */
+}
+
 @keyframes animate{
     0%{
         background-position: 0%;
@@ -100,20 +142,30 @@ html,body{
 }
 
 .footer_container{
-    background-color:blueviolet;
     width: 100%;
     height: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 5px;
 }
 
 .footerdisplay{
-    background-color: #292B2F;
     margin: 0 auto;
     width: 80%;
     height: 40%;
-    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_adjust{
+    width: 100%;
+    height: 60%;
 }
 
 @media screen and (min-width: 0px) and (max-width:600px) {
@@ -131,6 +183,24 @@ html,body{
    .top_display_font{
         width: 100%;
         height: 70%;
+    }
+    .description_container{
+        margin: 0 auto;
+        width: 76%;
+        font-size: 1.125rem; 
+    }
+    .description{
+        height: 80%;
+    }
+    .footer_container{
+        font-size: 0.9rem;
+        letter-spacing: 4px;
+    }
+    .button_container{
+        height: 50%;
+}
+    .btn{
+        font-size: 1.125rem;
     }
 }
 
