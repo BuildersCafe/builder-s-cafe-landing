@@ -7,5 +7,5 @@ if(device == 'i'){
     test.classList.add("ios");
 }
 if(device == 'L'){
-    test.classList.add("android");
+    
 }
