@@ -165,6 +165,9 @@ html,body{
 }
 
 @media screen and (min-width: 0px) and (max-width:600px) {
+    html,body{
+        height: -webkit-fill-available;
+    }
     .main_container{
         height: 100vh;
         height: -webkit-fill-available;
