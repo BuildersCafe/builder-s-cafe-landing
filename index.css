@@ -77,6 +77,7 @@ html,body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px #00000000;
     animation: animate 1s linear infinite;
     background-size: 108% 105%;
     display: block;
@@ -202,7 +203,7 @@ html,body{
    .top_display_font{
         margin: 0 auto;
         width: 90%;
-        height: 60%;
+        height: 70%;
     }
     .description_container{
         margin: 0 auto;
