@@ -40,7 +40,6 @@ html,body{
 }
 
 .volume_container{
-    background-color: green;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +49,6 @@ html,body{
 }
 
 .volume_level_container{
-    background-color: rebeccapurple;
     margin: 0 auto;
     height: 80%;
     width: 80%;
@@ -89,7 +87,6 @@ html,body{
 
 .join_dc_container{
     width: 100%;
-    background-color: antiquewhite;
     height: 30%;
     display: flex;
     flex-direction: column;
@@ -99,7 +96,6 @@ html,body{
 .button_container{
     width: 100%;
     height: 55%;
-    background-color: violet;
 }
 
 .btn{
@@ -125,7 +121,7 @@ html,body{
 
 
 .ani_container{
-    background-color: blue;
+    /* background-color: blue; */
     width: 100%;
     height: 20%;
     display: flex;
@@ -169,38 +165,49 @@ html,body{
 }
 
 @media screen and (min-width: 0px) and (max-width:600px) {
+    .volume_level_container{
+        height: 70%;
+    }
    .gradient{
-        font-size: 3rem;
-        letter-spacing: 5px;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
    }
+   .mobile{
+        width: 100%;
+        height: 48%;
+    }
    .volume_level_container{
         width: 90%;
    }
    .top_display_container{
-        font-size: 1.125rem;
-        height: 80%;
+        font-size: 0.9rem;
+        height: 65%;
    }
    .top_display_font{
-        width: 100%;
-        height: 70%;
+        margin: 0 auto;
+        width: 90%;
+        height: 60%;
     }
     .description_container{
         margin: 0 auto;
         width: 76%;
-        font-size: 1.125rem; 
+        font-size: 0.9rem; 
     }
     .description{
         height: 80%;
     }
     .footer_container{
         font-size: 0.9rem;
-        letter-spacing: 4px;
+        letter-spacing: 1px;
     }
     .button_container{
-        height: 50%;
+        height: 45%;
 }
     .btn{
-        font-size: 1.125rem;
+        font-size: 0.9rem;
     }
 }
 
