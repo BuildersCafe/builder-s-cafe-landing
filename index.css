@@ -3,11 +3,13 @@ html,body{
     border : 0%;
     margin: 0%;
     background-color: #36393F;
+    max-height: -webkit-fill-available;
 }
 
 .main_container{
     height: 100vh;
     width: 100%;
+    max-height: -webkit-fill-available;
 }
 
 .top_container{
@@ -165,10 +167,6 @@ html,body{
 }
 
 @media screen and (min-width: 0px) and (max-width:600px) {
-    .main_container{
-        height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
-    }
     .volume_level_container{
         height: 70%;
     }
