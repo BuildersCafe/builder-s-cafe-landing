@@ -9,7 +9,15 @@ html,body{
 .main_container{
     height: 100vh;
     width: 100%;
+}
+
+.main_container.ios{
+    height: 100vh;
     max-height: -webkit-fill-available;
+}
+.main_container.android{
+    height: 100vh;
+    height: -webkit-fill-available;
 }
 
 .top_container{

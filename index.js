@@ -1,11 +1,10 @@
 let agent = navigator.userAgent
-let data = agent.split("(");
-if(data[1].charAt(0) == 'W'){
-    alert("windows");
+let splited = agent.split("(");
+let device = splited[1].charAt(0);
+const test = document.querySelector(".main_container");
+if(device == 'i'){
+    test.classList.add("ios");
 }
-if(data[1].charAt(0) == 'L'){
-    alert("andriod");
-}
-if(data[1].charAt(0) == 'i'){
-    alert("ios");
+if(device == 'L'){
+    test.classList.add("android");
 }
