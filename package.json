@@ -1,0 +1,24 @@
+{
+  "name": "builders'-cafe-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css":"tailwind build src/style.css -o public/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakerDZ/builder-s-cafe-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakerDZ/builder-s-cafe-landing/issues"
+  },
+  "homepage": "https://github.com/MakerDZ/builder-s-cafe-landing#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.7"
+  }
+}
