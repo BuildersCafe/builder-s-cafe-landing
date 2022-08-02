@@ -184,14 +184,9 @@ html,body{
    .gradient{
         font-size: 2.5rem;
         letter-spacing: 2px;
-        /* display: flex; */
-        flex-direction: column;
-        justify-content: center;
+        height: 30%;
+
    }
-   .mobile{
-        width: 100%;
-        height: 48%;
-    }
    .volume_level_container{
         width: 90%;
    }
