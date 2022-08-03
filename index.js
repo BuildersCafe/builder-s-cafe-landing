@@ -23,26 +23,32 @@ async function ani_looper() {
         switch(display){
             case 0:
                 neon_color.style.backgroundColor = "#00ffff";
+                neon_color.style.boxShadow = "0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff";
                 description.innerHTML = "💬 မိမိနဲ့ဝါသနာတူများနဲ့​တွေ့ဆုံပြီးရင်းနှီးစွာစကား​ပြောကြမယ်။";
                 break;
             case 1:
                 neon_color.style.backgroundColor = "#FF6700";
+                neon_color.style.boxShadow = "0 0 5px #FF6700, 0 0 10px #FF6700, 0 0 15px #FF6700";
                 description.innerHTML = "🔨 မိမိတို့ဖန်တီးထား​သော projects များအားပြသနိုင်​စေရန်။";
                 break;
             case 2:
                 neon_color.style.backgroundColor = "#E0E722";
+                neon_color.style.boxShadow = "0 0 5px #E0E722, 0 0 10px #E0E722, 0 0 15px #E0E722";
                 description.innerHTML = "🤝 မိမိတို့ဖန်တီး​နေ​သော project အတွက် co-founder ရှာနိုင်ရန်။";
                 break;
             case 3:
                 neon_color.style.backgroundColor = "#808080";
+                neon_color.style.boxShadow = "0 0 5px #808080, 0 0 10px #808080, 0 0 15px #808080";
                 description.innerHTML = "💡မိမိတို့စိတ်ကူးထဲတွင်ရှိ​သော project ideas များ​ဆွေး​နွေးနိုင်​စေရန်။";
                 break;
             case 4:
                 neon_color.style.backgroundColor = "#9D00FF";
+                neon_color.style.boxShadow = "0 0 5px #9D00FF, 0 0 10px #9D00FF, 0 0 15px #9D00FF";
                 description.innerHTML = "🔬 မိမိတို့ရှာ​ဖွေ​တွေ့ရှိ​သောနည်းပညာအ​ကြောင်းအရာများမျှ​ဝေနိုင်​စေရန်။";
                 break;
             case 5:
                 neon_color.style.backgroundColor = "#FF3131";
+                neon_color.style.boxShadow = "0 0 5px #FF3131, 0 0 10px #FF3131, 0 0 15px #FF3131";
                 description.innerHTML = "👨‍⚕️ မိမိတို့နားမလည်သည်များကို အကူအညီ​တောင်းနိုင်ရန်။";
                 break;
         }
