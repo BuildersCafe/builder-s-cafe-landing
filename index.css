@@ -4,6 +4,7 @@ html,body{
     margin: 0%;
     background-color: #36393F;
     height: -webkit-fill-available;
+    overflow: hidden;
 }
 
 .main_container{
@@ -132,7 +133,6 @@ html,body{
     }
 }
 
-
 .ani_container{
     /* background-color: blue; */
     width: 100%;
@@ -140,14 +140,55 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    overflow: hidden;
+    transform: translateX(calc(100% + 100%));
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.35);
+}
+
+.ani_container.active{
+    transform: translateX(0%);
 }
 
 .ani_one_container{
     background-color: #292B2F;
     margin: 0 auto;
     width: auto;
-    height: 45%;
-    border-radius: 18px;
+    height: 55%;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Noto Sans Myanmar', sans-serif;
+}
+
+.neon{
+    height: 100%;
+    width: 10px;
+    background-color: cyan;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    text-align: center;
+}
+
+.ani_des{
+   height: 100%;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 15px;
+}
+
+.ani_text{
+    height: 50%;
+    width: auto;
 }
 
 .footer_container{
@@ -208,6 +249,13 @@ html,body{
     .description{
         height: 80%;
     }
+    .ani_one_container{
+        font-size: 0.9rem; 
+    }
+    .ani_text{
+        height: 30%;
+        width: auto;
+    }
     .footer_container{
         font-size: 0.9rem;
         letter-spacing: 1px;
@@ -246,6 +294,15 @@ html,body{
         margin: 0 auto;
         width: 76%;
         font-size: 0.9rem; 
+    }
+    .ani_one_container{
+        font-size: 0.9rem; 
+        width: 80%;
+        text-align: center;
+    }
+    .ani_text{
+        height: 80%;
+        width: auto;
     }
     .description{
         height: 80%;
@@ -293,6 +350,15 @@ html,body{
         margin: 0 auto;
         width: 76%;
         font-size: 0.7rem; 
+    }
+    .ani_one_container{
+        font-size: 0.7rem; 
+        width: 80%;
+        text-align: center;
+    }
+    .ani_text{
+        height: 70%;
+        width: auto;
     }
     .description{
         height: 80%;
