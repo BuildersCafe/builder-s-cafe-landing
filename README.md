@@ -11,12 +11,4 @@
 
 Live Demo : https://builderscafelanding.netlify.app/
 
-Desktop View 💻
-
-[![Desktop View Demo](https://omega.tixte.co/r/builder'scafedesktop.gif)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-
-Mobile View 📲
-
-[![Mobile View Demo](https://us-east-1.tixte.net/uploads/omega.tixte.co/mobile.png)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-
 
